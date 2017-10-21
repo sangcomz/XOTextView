@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTitle">#212121</color>
+    <color name="colorContent">#262323</color>
+    <color name="colorComment">#ab1e3c</color>
+</resources>
