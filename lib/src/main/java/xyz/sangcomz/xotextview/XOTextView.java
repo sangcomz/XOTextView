@@ -41,17 +41,15 @@ public class XOTextView extends AppCompatTextView {
         }
     }
 
-    private void setStyle(int resId) {
+    public XOTextView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    public void setStyle(int resId) {
         if (Build.VERSION.SDK_INT < 23) {
             setTextAppearance(this.getContext(), resId);
         } else {
             setTextAppearance(resId);
         }
-
-    }
-
-    public XOTextView(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-
     }
 }

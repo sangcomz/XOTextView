@@ -2,31 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context="xyz.sangcomz.xotextviewdemo.MainActivity">
 
-    <xyz.sangcomz.xotextview.XOTextView
+    <xyz.sangcomz.xotextview.XOKTextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Title"
-        app:textStyle="title" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Kotlin Android Extensions"
+        app:textStyleKT="title" />
 
-    <xyz.sangcomz.xotextview.XOTextView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:text="Content"
-        app:textStyle="content" />
-
-    <xyz.sangcomz.xotextview.XOTextView
+    <xyz.sangcomz.xotextview.XOKTextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Comment"
-        app:textStyle="comment" />
+        android:text="If you didn’t know about Kotlin Android Extensions, you’re gonna love them. They will help us Android developers to access to the views declared in an XML in a much easier way. Some of you will remember Butterknife when you see it, but it´s even simpler to use.\n\n
+Kotlin Android Extensions is basically a view binder that will let you use your XML views in your code by just using their id. It will automatically create properties for them without using any external annotation or findViewById methods."
+        app:textStyleKT="content" />
+
+    <xyz.sangcomz.xotextview.XOKTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is there a way that you know of to use the Android Extensions view injections from outside an Activity? I was trying to use it inside a ViewHolder, instead of a View.findById(), to no luck"
+        app:textStyleKT="comment" />
 </LinearLayout>

@@ -26,6 +26,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.github.sangcomz:xotextview:v0.0.1'
+//    compile 'com.github.sangcomz:xotextview:v0.0.1'
+    compile project (':lib')
     testCompile 'junit:junit:4.12'
 }

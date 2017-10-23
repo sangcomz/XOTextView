@@ -4,20 +4,19 @@
     <style name="TitleTextStyle">
         <item name="android:textSize">@dimen/titleTextSize</item>
         <item name="android:textColor">@color/colorTitle</item>
-        <item name="android:fontFamily">sans-serif</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="ContentTextStyle">
         <item name="android:textSize">@dimen/contentTextSize</item>
         <item name="android:textColor">@color/colorContent</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
     <style name="CommentTextStyle">
         <item name="android:textSize">@dimen/commentTextSize</item>
         <item name="android:textColor">@color/colorComment</item>
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
         <item name="android:textStyle">bold</item>
     </style>
 </resources>
